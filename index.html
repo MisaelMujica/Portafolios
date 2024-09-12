@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Misael Mujica">
+    <meta name="description" content="portafolio de desarrollo web de Misael Mujica">
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, React, Bootstrap, tailwind">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Dev-Misael Mujica</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-id-card-line"></i>
+                <span>Misael Mujica</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link ">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="#experiencia" class="nav__link">Experiencia</a>
+                    </li>
+
+                    <li>
+                        <a href="#proyectos" class="nav__link">Proyectos</a>
+                    </li>
+
+                    <li>
+                        <a href="#testimonios" class="nav__link">Testimonios</a>
+                    </li>
+
+                    <li>
+                        <a href="#contacto" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle menu -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-5-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== INICIO ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Saludos! <br>
+                            Soy Misael Mujica
+                        </h1>
+
+                        <p class="home__description">
+                            Soy un apasionado Desarrollador Web con una formación diversa y rica en
+                            experiencias. <br><br>
+                        </p>
+
+                        <di class="home__buttons">
+                            <a href="#experiencia" class="button">Experiencia</a>
+
+                            <a href="#proyectos" class="button__link">
+                                <span>Ver Proyectos</span>
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </di>
+                    </div>
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">+3</h3>
+                            <p class="home__info-description">Años de <br> Experiencia</p>
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">8</h3>
+                            <p class="home__info-description">Proyectos <br> Completados</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__images">
+                    <img src="assets/img/home-img-1.png" alt="image" class="home__img-1">
+                    <img src="assets/img/home-img-2.png" alt="image" class="home__img-2">
+                </div>
+            </div>
+        </section>
+
+                <!--==================== bio ====================-->
+                <section class="bio section" id="bio">
+                    <div class="bio__container container grid">
+                        <div class="bio__data">
+                            <span class="section__subtitle">Quién es Misael Mujica?</span>
+                            <h2 class="section__title">
+                                Un poco de mi biografía
+                            </h2>
+                            <p class="bio__description">
+                                Soy Diseñador Web, Licenciado en Pedagogía mención Artes Plásticas, Técnico Superior Universitario en producción audiovisual y fotografía, soy Terapeuta Holístico especializado en Acupuntura, soy Instructor Certificado Internacionalmente en cuatro Artes Marciales, entre muchas cosas más... Mi sueño es llegar a ser un excelente Desarrollador Web y de Videojuegos.
+                            </p>
+                            <ul class="bio__list grid">
+                                <li class="bio__list-item">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <span>Educación Universitaria</span>
+                                </li>
+        
+                                <li class="bio__list-item">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <span>Compromiso</span>
+                                </li>
+        
+                                <li class="bio__list-item">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <span>Dedicación</span>
+                                </li>
+        
+                                <li class="bio__list-item">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <span>Polifacético</span>
+                                </li>
+                            </ul>
+        
+                            <a href="#proyectos" class="button">Ver Proyectos</a>
+                        </div>
+        
+                        <div class="bio__images">
+                            <img src="assets/img/bio-img-1.png" alt="image" class="bio__img-1">
+                            <img src="assets/img/bio-img-2.png" alt="image" class="bio__img-2">
+                        </div>
+                    </div>
+                </section>
+
+        <!--==================== EDUCACION ====================-->
+        <section class="experiencia section" id="experiencia">
+            <h2 class="section__title">Experiencia:</h2>
+
+            <div class="experiencia__container container grid">
+                <article class="experiencia__card">
+                    <img src="assets/img/experiencia-img-1.png" alt="image" class="experiencia__img">
+                    <div class="experiencia__data">
+
+                        <h2 class="experiencia__title">Desarrollo Web</h2>
+                        <p>
+                            Comencé en el Desarrollo Web por mi interés en la publicidad digital y la convicción de que
+                            el futuro está en lo digital, especialmente en el metaverso de las redes sociales y la web.
+                            Mi meta es dominar las herramientas actuales en el ámbito del desarrollo, seguir las
+                            principales tendencias del sector
+                            para trabajar en proyectos cada vez más ambiciosos y aprender aún más de manera incansable.
+                            Tengo conocimientos de frameworks como
+                            <strong>SCRUM y KANBAN</strong>, y experiencia con <strong>Git y GitHub.</strong>
+                        </p>
+                        <br>
+                        <span>Certificado por FreeCodeCamp</span>
+                        <br><br>
+                        <span class="experiencia__date"><strong>REACT ||
+                                HTML || CSS || JavaScript || Bootstrap || Tailwind || Material UI || Figma
+                        </span></strong></span>
+                    </div>
+                </article>
+
+                <article class="experiencia__card">
+                    <img src="assets/img/experiencia-img-2.png" alt="image" class="experiencia__img">
+                    <div class="experiencia__data">
+
+                        <h2 class="experiencia__title">Estudios Universitarios</h2>
+
+
+                        <p>
+                            Como buena persona Multipotencial, estoy en constante proceso de aprendizaje y
+                            profundización de mis conocimientos, soy <strong>Licenciado en Artes, Mención
+                                Cumlaude</strong>, Técnico Superior Universitario en <strong>Producción Audiovisual y
+                                Fotografía</strong>, Terapeuta Holístico especialista en Acupuntura, Instructor de
+                            cuatro Artes Marciales, Entrenador Personal de Musculación y Fitness. Me caracterizo por ser
+                            inquieto y estar en constante aprendizaje.
+                        </p>
+                        <br>
+                        <span>Especialista en el área Publicitaria</span>
+                        <br><br>
+                        <span class="experiencia__date"><strong>Docente de Artes ||
+                                Produccion Audiovisual || Publicidad Marketing </span></strong></span>
+                    </div>
+                </article>
+
+                <article class="experiencia__card">
+                    <img src="assets/img/experiencia-img-3.png" alt="image" class="experiencia__img">
+                    <div class="experiencia__data">
+
+                        <h2 class="experiencia__title">Campos de Interés</h2>
+                        <p>
+                            Entre otras cosas domino el inglés conversacional a nivel Intermedio y el escrito a nivel
+                            avanzado. Mi experiencia en Artes me llevó a dar clases de Diseño en la Universidad Monseñor
+                            de Talavera en Caracas, Venezuela, lo cual me inclinó a aprender principios y herramientas
+                            de Diseño Gráfico, a estudiar Animación 2D y 3D, y eso me impulsó a estudiar y ejercer en el
+                            ámbito de la Publicidad y el Mercadeo. Me interesa incursionar en el campo del desarrollo de
+                            videojuegos también.
+                        </p>
+                        <br>
+                        <span>Construction Of Home Areas</span>
+                        <br><br>
+                        <span class="experiencia__date"><strong>Ingles Intermedio || Diseño || Animación || Produccion
+                                Audiovisual || Fotografia </span></strong></span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== proyectos ====================-->
+        <section class="proyectos section" id="proyectos">
+            <div class="proyectos__container container grid">
+                <div class="proyectos__data">
+                    <div>
+                        <span class="section__subtitle">Mis Proyectos</span>
+                        <h2 class="section__title">Algunos proyectos creados recientemente</h2>
+                    </div>
+
+                    <p class="proyectos__description">
+                        Cada uno con una breve descripción para conocer los elementos resaltantes que forman parte de
+                        cada proyecto y los aprendizajes adquiridos a través de la práctica.
+                    </p>
+
+                    <a href="#contacto" class="button">Contáctame</a>
+                </div>
+
+                <div class="proyectos__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="proyectos__card swiper-slide">
+                            <div class="proyectos__icon">
+                                <img src="assets/img/proyectoProduccion.svg" alt="image" class="proyectos__icon">
+                            </div>
+
+                            <a href="https://misaelmujica.com" target="_blank" rel="noopener noreferrer">
+                                <h3 class="proyectos__title">Producciones <br> Misael Mujica</h3>
+                            </a>
+
+                            <p>
+                                Proyecto hecho en REACT para promocionar mis servicios de Producción Audiovisual. En
+                                este proyecto trabajé enfáticamente con React-Router-Dom.
+                            </p>
+                            <br>
+                            <a href="https://misaelmujica.com" target="_blank" rel="noopener noreferrer">Enlace a la
+                                página</a>
+                            <br>
+                            <a href="https://github.com/MisaelMujica" target="_blank" rel="noopener noreferrer">Proyecto
+                                en github</a>
+                        </article>
+
+                        <article class="proyectos__card swiper-slide">
+                            <div class="proyectos__icon">
+                                <img src="assets/img/proyectoDerbakista.svg" alt="image" class="proyectos__icon">
+                            </div>
+
+                            <h3 class="proyectos__title">Derbakista <br> Misael Mujica</h3>
+
+                            <p>
+                                Proyecto personal de música y shows de danza árabe con bailarinas. Fué realizado con
+                                REACT. Las imagenes estan en .SVG, realizadas en illustrator.
+                            </p>
+                            <br>
+                            <a href="https://derbakista.misaelmujica.com" target="_blank"
+                                rel="noopener noreferrer">Enlace a la página</a>
+                            <br>
+                            <a href="https://github.com/MisaelMujica/Derbakista" target="_blank"
+                                rel="noopener noreferrer">Proyecto en github</a>
+                        </article>
+
+                        <article class="proyectos__card swiper-slide">
+                            <div class="proyectos__icon">
+                                <img src="assets/img/proyectoLulu.svg" alt="image" class="proyectos__icon">
+                            </div>
+
+                            <h3 class="proyectos__title">Lulu Maiz <br> Bellydancer</h3>
+
+                            <p>
+                                Proyecto creado usando solo HTML y CSS, la idea de este proyecto fue crear una página
+                                simple pero efectiva con componentes interesantes.
+                            </p>
+                            <br>
+                            <a href="https://lulumaiz.misaelmujica.com" target="_blank" rel="noopener noreferrer">Enlace
+                                a la página</a>
+                            <br>
+                            <a href="https://github.com/MisaelMujica/LuluMaizBellydancer" target="_blank"
+                                rel="noopener noreferrer">Proyecto en github</a>
+                        </article>
+
+                        <article class="proyectos__card swiper-slide">
+                            <div class="proyectos__icon">
+                                <img src="assets/img/proyectoAcademia.svg" alt="image" class="proyectos__icon">
+                            </div>
+
+                            <h3 class="proyectos__title">Academia <br> de Acupuntura</h3>
+
+                            <p>
+                                Academia de Acupuntura de mis padres en Venezuela. En este proyecto se usa Tailwind,
+                                framework de CSS, para dar estilo a la página. Se rediseña el logo en .svg
+                            </p>
+                            <br>
+                            <a href="https://academiamujica.misaelmujica.com" target="_blank"
+                                rel="noopener noreferrer">Enlace a la página</a>
+                            <br>
+                            <a href="https://github.com/MisaelMujica/Acupuntura" target="_blank"
+                                rel="noopener noreferrer">Proyecto en github</a>
+                        </article>
+
+                        <article class="proyectos__card swiper-slide">
+                            <div class="proyectos__icon">
+                                <img src="assets/img/proyectoTonho.svg" alt="image" class="proyectos__icon">
+                            </div>
+
+                            <h3 class="proyectos__title">Toño Machado <br> Tatuador</h3>
+
+                            <p>
+                                Proyecto publicitario para Tatuador radicado en España, realizado con REACT, todas las
+                                imágenes fueron convertidas a .svg y el logo fue rediseñado.
+                            </p>
+                            <br>
+                            <a href="https://tomachado.misaelmujica.com" target="_blank"
+                                rel="noopener noreferrer">Enlace a la página</a>
+                            <a href="https://github.com/MisaelMujica/TooMachado" target="_blank"
+                                rel="noopener noreferrer">Proyecto en github</a>
+                        </article>
+
+                        <article class="proyectos__card swiper-slide">
+                            <div class="proyectos__icon">
+                                <img src="assets/img/proyectoLungMun.svg" alt="image" class="proyectos__icon">
+                            </div>
+
+                            <h3 class="proyectos__title">Lung Mun <br> Artes Marciales</h3>
+
+                            <p>
+                                Primer proyecto creado por mi usando solo HTML y CSS, su layout fue creado con Grid,
+                                tiene un acordeón simple que se despliega al hacerle click.
+                            </p>
+                            <br>
+                            <a href="https://puertadragon.misaelmujica.com" target="_blank"
+                                rel="noopener noreferrer">Enlace a la página</a>
+                            <br>
+                            <a href="https://github.com/MisaelMujica/LungMun" target="_blank"
+                                rel="noopener noreferrer">Proyecto en github</a>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="swiper-button-prev">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+            </div>
+
+            <div class="proyectos__shape"></div>
+        </section>
+
+        <!--TESTIMONIOS-->
+        <section id="testimonios" class="testimonios seccion-clara">
+            <h2 class="section__subtitle">TESTIMONIOS:</h2>
+            <h3 class="section__title testimonios-descripcion">Algunos testimonios de mis clientes</h3>
+
+            <!--testimonios-->
+            <div class="testimonios-contenedor" id="testimonios-contenedor">
+
+                <div class="col">
+                    <div class="testimonio">
+                        <img class="testimonio-img" src="assets/img/testimonio1.svg" alt="Toño Machado"
+                            title="Toño Machado">
+                        <h2 class="testimonio-header">Toño Machado, Tatuador (España)</h2>
+                        <div class="show">
+                            <div class="texto-descriptivo">
+                                <p><strong> "Un excelente trabajo</strong> y muy rápido, la página quedó muy bien, me dió
+                                    consejos para
+                                    hacerla mejor y hasta me rediseñó el logo desde cero, 100% recomendado".</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="testimonio">
+                            <img class="testimonio-img" src="assets/img/testimonio2.svg" alt="Lourdiannis Maiz"
+                                title="lulumaiz.bellydancer">
+                            <h2 class="testimonio-header">Lourdiannis Maiz, Bailarina (Chile)</h2>
+                            <div class="show">
+                                <div class="texto-descriptivo">
+                                    <p><strong>"Me encantó!</strong> Toda bailarina profesional necesita una buena
+                                        página para promover sus
+                                        servicios, sus clases y su performance, le dí libertad creativa absoluta y me
+                                        sorprendió, mi página
+                                        quedó muy bonita, femenina pero sin perder su toque serio y profesional, ademas,
+                                        no solo me
+                                        <strong>diseñó la página</strong>, sino que también <strong>diseñó el
+                                            logo</strong> que voy a usar en
+                                        mi academia, me gusta mucho sobre todo la sección de servicios, es muy
+                                        interactiva.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="testimonio">
+                                <img class="testimonio-img" src="assets/img/testimonio3.svg" alt="Pepitodelospalotes"
+                                    title="fotico">
+                                <h2 class="testimonio-header">Arturo Mujica, Doctor (Venezuela)</h2>
+                                <div class="show">
+                                    <div class="texto-descriptivo">
+                                        <p> Misael nos ha diseñado <strong>el logo</strong> que expresa en forma
+                                            acertada el sentido
+                                            pedagógico que inspira nuestro trabajo. También ha desarrollado
+                                            <strong>diseños
+                                                publicitarios</strong> para nuestros webinar y jornadas de acupuntura.
+                                            En cuanto a la
+                                            <strong>página web</strong> para la Academia estamos muy complacidos con el
+                                            diseño realizado porque
+                                            enriquece las posibilidades de dar a conocer los diferentes factores que nos
+                                            caracterizan como
+                                            Academia dedicada a la formación Integral, desde lo didáctico hasta las
+                                            prácticas médicas que se
+                                            ofrecen para las comunidades. Agradecemos y valoramos altamente el
+                                            profesionalismo demostrado en
+                                            todos estos diseños elaborados para nosotros.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+        </section>
+
+
+        <div class="contacto__shape"></div>
+
+        <!--==================== contacto ====================-->
+        <section class="contacto section" id="contacto">
+            <div class="container">
+                <span class="section__subtitle">CONTÁCTAME</span>
+                <h2 class="section__title">No esperes para hacer <br> realidad tu proyecto!</h2>
+
+                <div class="contacto__container grid">
+                    <img src="assets/img/contacto-img.png" alt="image" class="contacto__img">
+
+                    <div class="contacto__data grid">
+                        <div class="contacto__card">
+                            <div class="contacto__icon">
+                                <i class="ri-map-pin-line"></i>
+                            </div>
+
+                            <h3 class="contacto__title">Dirección</h3>
+                            <address class="contacto__info">
+                                Santiago - Chile <br>
+                                Santiago Centro
+                            </address>
+                        </div>
+
+                        <div class="contacto__card">
+                            <div class="contacto__icon">
+                                <i class="ri-phone-line"></i>
+                            </div>
+
+                            <h3 class="contacto__title">Teléfono</h3>
+                            <address class="contacto__info">
+                                +56 9 8184 6196 <br>
+                                Horario de Oficina
+                            </address>
+                        </div>
+
+                        <div class="contacto__card">
+                            <div class="contacto__icon">
+                                <i class="ri-chat-3-line"></i>
+                            </div>
+
+                            <h3 class="contacto__title">Redes Sociales</h3>
+                            <div class="contacto__social">
+                                <a href="https://api.whatsapp.com/send?phone=56981846196&text=Hola, más información por favor!"
+                                    target="_blank" class="contacto__social-link">
+                                    <i class="ri-whatsapp-line"></i>
+                                </a>
+                                <a href="https://facebook.com/misaelmujica/" target="_blank" class="contacto__social-link">
+                                    <i class="ri-facebook-circle-line"></i>
+                                </a>
+                                <a href="https://instagram.com/misaelmujicamendez/" target="_blank" class="contacto__social-link">
+                                    <i class="ri-instagram-line"></i>
+                                </a>
+                                <a href="mailto:misaelmujica@gmail.com" target="_blank" class="contacto__social-link">
+                                    <i class="ri-mail-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <i class="ri-id-card-line"></i>
+                    <span>Misael Mujica</span>
+                </a>
+
+                <p class="footer__description">
+                    Hagamos realidad <br> el proyecto que tienes en mente.
+                </p>
+
+                <address class="footer__email">Email: misaelmujica@gmail.com</address>
+            </div>
+
+            <div class="footer__content grid">
+                <div>
+                    <h3 class="footer__title">Enlaces</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#home" class="footer__link">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#experiencia" class="footer__link">Experiencia</a>
+                        </li>
+                        <li>
+                            <a href="#proyectos" class="footer__link">Proyectos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Dirección</h3>
+
+                    <ul class="footer__list">
+                        <li>
+                            <address class="footer__info">Santiago - Chile <br> Santiago Centro</address>
+                        </li>
+
+                        <li>
+                            <address class="footer__info">Horarios de Oficina</address>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Redes</h3>
+
+                    <div class="footer__social">
+                        <a href="https://facebook.com/misaelmujica/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="https://instagram.com/misaelmujicamendez/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="mailto:misaelmujica@gmail.com" target="_blank" class="footer__social-link">
+                            <i class="ri-mail-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span class="footer__copy">
+            &#169; Hecho por <a href="https://misaelmujica.com" target="_blank" class="footer__social-link">Misael Mujica</a>
+        </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
